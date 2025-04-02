@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #D5E1EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-container {
+    background-color: white;
+    width: 220px;
+    padding: 20px 15px 30px 15px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+img {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+.qr-heading {
+   font-size: 18px;
+   font-weight: bold;
+   margin: 15px 0 10px 0;
+   color: #1f314f;
+}
+.qr-text {
+    font-size: 14px;
+    color: gray;
+    line-height: 1.5;
+}
+.qr-heading, .qr-text {
+    font-family: 'Outfit', sans-serif;
+}
